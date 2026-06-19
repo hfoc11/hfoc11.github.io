@@ -1,0 +1,18 @@
+site_name: Chanaltín Docs
+site_description: Documentación de requerimientos de Chanaltín
+docs_dir: docs
+site_dir: site
+
+nav:
+  - Home: index.md
+  - Especificaciones:
+      - Chanaltin: specs/chanaltin.md
+  - Diagramas: diagrams/architecture.md
+  - ADRs: adr/README.md
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mermaid2

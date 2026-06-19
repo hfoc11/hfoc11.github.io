@@ -1,0 +1,11 @@
+. : El t‚rmino 'D:\CHANALTIL\.venv\Scripts\Activate.ps1' no se reconoce como nombre de un cmdlet, funci¢n, archivo de 
+script o programa ejecutable. Compruebe si escribi¢ correctamente el nombre o, si incluy¢ una ruta de acceso, 
+compruebe que dicha ruta es correcta e int‚ntelo de nuevo.
+En l¡nea: 1 Car cter: 7
++ & { . 'D:\CHANALTIL\.venv\Scripts\Activate.ps1'; python -m mkdocs ser ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\CHANALTIL\.venv\Scripts\Activate.ps1:String) [], CommandNotFoundExce 
+   ption
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\zynyz\AppData\Local\Programs\Python\Python311\python.exe: No module named mkdocs
