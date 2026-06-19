@@ -2,9 +2,9 @@
 
 Bienvenido al índice de la documentación. Secciones principales:
 
-- [Especificaciones](specs/)
-- [Diagramas](diagrams/)
-- [ADRs (Decisiones de arquitectura)](adr/)
+- [Especificaciones](specs/chanaltin.md)
+- [Diagramas](diagrams/architecture.md)
+- [ADRs (Decisiones de arquitectura)](adr/README.md)
 
 Específicamente, la especificación principal es:
 

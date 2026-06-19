@@ -1,16 +1,20 @@
-# Chanaltín — Documentación de Requerimientos
+# Chanaltín Docs
 
-Este repositorio contiene conceptos, diagramas y especificaciones técnicas del proyecto Chanaltín. No contiene código fuente; está pensado como centro de documentación para desarrolladores y stakeholders.
+Documentación publicada en GitHub Pages:
 
-Estructura principal:
+https://hfoc11.github.io/chanaltin-docs/
 
-- `docs/` — Documentación organizada por secciones (especificaciones, diagramas, ADRs).
-- `docs/specs/` — Requerimientos y especificaciones (incluye `chanaltin.md`).
-- `docs/diagrams/` — Diagramas y recursos gráficos.
-- `docs/adr/` — Architecture Decision Records.
+Este repositorio contiene el contenido fuente del sitio MkDocs. Los cambios en `main` se publican automáticamente mediante GitHub Actions.
 
-Cómo contribuir: ver `CONTRIBUTING.md`.
+## Estructura
 
----
+- `docs/` - páginas publicadas en el sitio.
+- `mkdocs.yml` - configuración de navegación y tema.
+- `.github/workflows/deploy-docs.yml` - despliegue a GitHub Pages.
 
-URL del sitio (opcional): se puede publicar con GitHub Pages o MkDocs.
+## Desarrollo local
+
+```bash
+python -m pip install -r requirements.txt
+python -m mkdocs serve
+```
